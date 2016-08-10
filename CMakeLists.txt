@@ -7,8 +7,7 @@ ExternalProject_Add (
     METASIM
     PREFIX METASIM
     GIT_REPOSITORY "git://github.com/ReTiS-Lab/METASIM.git"
-    INSTALL_COMMAND ""
-    GIT_TAG "master"
+    GIT_TAG "IncludeFolder"
     UPDATE_COMMAND ""
     PATCH_COMMAND ""
     SOURCE_DIR "${CMAKE_SOURCE_DIR}/METASIM"
@@ -20,7 +19,7 @@ ExternalProject_Add (
     DEPENDS METASIM
     GIT_REPOSITORY "git://github.com/ReTiS-Lab/RTLIB.git"
     INSTALL_COMMAND ""
-    GIT_TAG "master"
+    GIT_TAG "IncludeFolder"
     UPDATE_COMMAND ""
     PATCH_COMMAND ""
     SOURCE_DIR "${CMAKE_SOURCE_DIR}/RTLIB"

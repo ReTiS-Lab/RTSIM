@@ -7,7 +7,7 @@ ExternalProject_Add (
     METASIM
     PREFIX METASIM
     GIT_REPOSITORY "git://github.com/ReTiS-Lab/METASIM.git"
-    INSTALL_COMMAND ""
+#    INSTALL_COMMAND ""
     GIT_TAG "master"
     UPDATE_COMMAND ""
     PATCH_COMMAND ""
